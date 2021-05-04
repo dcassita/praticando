@@ -1,0 +1,26 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Pratica4 {
+
+    public static void main(String[] args) {
+        System.out.println("Digite um número");
+        Scanner teclado = new Scanner(System.in);
+        int number = teclado.nextInt();
+
+        System.out.println("Insira o número inicial");
+        int numberInicial = teclado.nextInt();
+
+        System.out.println("Insira o número final");
+        int numberFinal = teclado.nextInt();
+
+        int count;
+
+        for (count = numberInicial; count <=numberFinal; count++);
+        if (count % number==0);
+
+        System.out.printf("O número %d é divisível por %d \n", count, number);
+
+    }
+}
