@@ -1,0 +1,38 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args)
+    {
+
+        int seuNumber, seuNumberDois, seuNumberTres;
+        int maior;
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Digite três números");
+        seuNumber = teclado.nextInt();
+        seuNumberDois = teclado.nextInt();
+        seuNumberTres = teclado.nextInt();
+
+        if (seuNumber > seuNumberDois && seuNumber > seuNumberTres)
+        {
+            maior = seuNumber;
+        }
+        else if (seuNumberDois > seuNumberTres) {
+            maior = seuNumberDois;
+        }
+
+            else
+            {
+                maior = seuNumberTres;
+            }
+
+        System.out.println("O maior número é: " + maior);
+
+
+    }
+
+
+    }
+
