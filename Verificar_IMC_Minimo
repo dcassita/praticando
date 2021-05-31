@@ -1,0 +1,19 @@
+Algoritmo "verificando IMC"
+
+Var
+   altura, peso, IMC: real
+Inicio
+   escreval ("Qual é a sua altura?")
+   leia (altura)
+   escreval ("Qual é o seu peso?")
+   leia (peso)
+
+   IMC <- peso / (altura * altura)
+   escreval ("Seu IMC é " , IMC:5:2)
+   se (IMC >= 18.5) e (IMC <= 25) entao
+      escreval ("e você está no peso ideal)
+   senao
+      escreval ("você não está no peso ideal ): ")
+
+   FimSe
+Fimalgoritmo
