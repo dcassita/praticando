@@ -1,0 +1,22 @@
+Algoritmo "Tirando a CNH"
+
+Var
+ano, anoNasc, idade: Inteiro
+
+Inicio
+Escreval ("-----DEPARTAMENTO DE TRÂNSITO-----")
+Escreval ("Insira o ano atual:")
+         leia (ano)
+Escreval ("Insira que ano o candidato nasceu:")
+         leia (anoNasc)
+idade <- ano - anoNasc
+
+Se (idade > 18) entao
+   Escreval ("O candidato está apto a tirar habilitação")
+
+senao
+   Escreval ("O candidato não está apto a tirar habilitação")
+
+FimSe
+
+Fimalgoritmo
