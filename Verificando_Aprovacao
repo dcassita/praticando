@@ -1,0 +1,24 @@
+Algoritmo "Verificando se o aluno foi aprovado"
+
+Var
+p1, p2, nota_final: Real
+
+Inicio
+escreval ("-----SISTEMA DE AVALIAÇAO-----")
+escreval ("Insira a nota da p1 do aluno: ")
+         leia (p1)
+escreval ("Insira a nota da P2 do aluno: ")
+         leia (p2)
+nota_final <- (p1 + p2) / 2
+
+escreval ("A nota final do aluno foi " , nota_final:3:1)
+
+Se nota_final >= 7 entao
+   escreval ("O aluno foi aprovado, parabéns!")
+
+senao
+   escreval ("Infelizmente, o aluno foi reprovado")
+
+FimSe
+
+Fimalgoritmo
