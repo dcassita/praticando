@@ -1,0 +1,20 @@
+Algoritmo "if-else"
+
+Var
+ano, anoNasc, Idade: inteiro
+
+Inicio
+escreva ("Em que ano estamos?")
+        leia (ano)
+escreva ("Em que ano você nasceu?")
+        leia (anoNasc)
+Idade <- ano - anoNasc
+      escreval ("Em " , ano , " sua idade é " , Idade, " anos")
+
+Se (Idade >= 18) entao
+   escreval ("Você já é maior de idade, uhul")
+Senao
+     escreval ("Você é menor de idade")
+FimSe
+
+Fimalgoritmo
