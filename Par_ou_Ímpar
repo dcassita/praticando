@@ -1,0 +1,20 @@
+Algoritmo "par ou ímpar"
+
+Var
+   n, r: real
+   // n: entrada do usuário | r: resto da divisão
+
+Inicio
+   escreval ("Digite um número")
+   leia (n)
+   escreval ("Vamos verificar se é par ou ímpar, segura aí :) ")
+   r <- (n / 2)
+
+   se (r <> 0) entao
+      escreval ("Uhul, o número ", n , " é par")
+   senao
+      escreval ("Uhul, o número ", n , " é ímpar")
+
+   FimSe
+
+Fimalgoritmo
