@@ -1,0 +1,32 @@
+Var
+n1, n2, x : Inteiro
+
+Inicio
+Escreval ("====================")
+EscrevaL ("CONTAGEM INTELIGENTE")
+EscrevaL ("====================")
+
+EscrevaL ("Insira o número inicial:")
+Leia (n1)
+
+EscrevaL ("Insira o número final:")
+Leia (n2)
+
+x <- n1
+Se (n1 < n2) entao
+     enquanto (x <= n2) faca
+      Escreva (x , "..." )
+      x <- x + 1
+
+     FimEnquanto
+
+Senao
+     enquanto (x >= n2) faca
+     escreva (x , "... ")
+      x <- x - 1
+      FimEnquanto
+FimSe
+
+Escreval ("Contagem encerrada")
+
+Fimalgoritmo
